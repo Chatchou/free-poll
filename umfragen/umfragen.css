@@ -4,3 +4,60 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 
+.logo{
+    display: flex;
+    align-items: center; 
+}
+
+.logo h1{
+    text-decoration: none; 
+    font-weight: 400;  
+    font-family: 'Fredoka One', cursive;
+    color: #fff; 
+}
+
+.logo:hover{
+    text-decoration-line: none; 
+ 
+}
+
+.searchbar{
+    width: 40%; 
+}
+
+.logo_img{
+   width: 80px; 
+   height: 80px; 
+
+}
+.avatar{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+.header{
+    background: red;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a{
+    color: #fff;
+    margin: 0 15px 0 15px; 
+    font-size: 22px; 
+}
+
+.header input[type=text]{
+    padding:6px; 
+    margin-top: 8px; 
+    font-size: 17px; 
+    border: none; 
+    margin-bottom: 8px; 
+    border-radius: 5px; 
+    width: 100%; 
+}
