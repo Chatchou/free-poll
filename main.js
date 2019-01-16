@@ -10,8 +10,8 @@ function binerFrage(question_number) {
     return '<label>\n' +
         ' Unbetitle Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
-        '<div>' + '<input type="radio" id="scales" name="scales">' + '<label>' + 'ja' + '</label>' +
-        '<input type="radio" id="scales" name="scales">' + '<label>' + 'nein' + '</label>' +
+        '<div>' + '<input type="radio" id="scales" class="binaer" name="scales">' + '<label>' + 'ja' + '</label>' +
+        '<input type="radio" id="scales" class="binaer" name="scales">' + '<label>' + 'nein' + '</label>' +
         '</div>'
 }
 
@@ -20,7 +20,7 @@ function datumfrage(question_number) {
     return '<label>\n' +
         '      Unbetitle   Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
-        '<div>' + '<input type="date" id="start" name="trip-start"' + '</div>';
+        '<div>' + '<input type="date" id="start" class="date_input" name="trip-start"' + '</div>';
 
 }
 function kurzantwort(question_number) {
