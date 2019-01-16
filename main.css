@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding:0; 
+    margin:0; 
+    background-color: rgba(211,211,211,0.1) !important; 
+}
+
+
+
+
+.mycontainer{
+    margin-top: 100px; 
+}
+
+
+.myGrid{
+    background-color: #fff; 
+    padding:20px; 
+    border-radius: 5px; 
+}
+
+
+.question{
+        display: flex;
+        flex-direction: column; 
+        background-color:#fff; 
+        padding:20px; 
+       
+}
+
+.bigger_width{
+    border:none; 
+    outline: none; 
+    width: 100%; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-bottom: 10px; 
+    padding-top:10px; 
+ 
+}
+
+
+.bigger_width_question{
+    border:none; 
+    outline:none; 
+    width: 60%; 
+    margin-top:10px; 
+    margin-bottom: 10px; 
+    border-bottom-width: 2px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(233,233,233); 
+}
+
+span i{
+    font-size:22px; 
+}
+
+span{
+    cursor:pointer;
+    display: block;     
+}
+
+.question_button{
+  display: none; 
+}
+
+#button_toggleAddQuestionPopup{
+    font-weight: bolder; 
+}
+
+.mybutton{
+    margin-right: 15px;   
+}
