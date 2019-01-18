@@ -1,14 +1,14 @@
 var number = 0;
 function createfrage(question_number) {
     return '<label>\n' +
-        '   Unbetitle             Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
+        '   Unbetitelte             Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
         '  <textarea rows="4" rows="50" class="antwort" placeholder="Schreiben Sie eine Antwort"></textarea>';
 }
 
 function binerFrage(question_number) {
     return '<label>\n' +
-        ' Unbetitle Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
+        ' Unbetitelte Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
         '<div>' + '<input type="radio" id="scales" class="binaer" name="scales">' + '<label>' + 'ja' + '</label>' +
         '<input type="radio" id="scales" class="binaer" name="scales">' + '<label>' + 'nein' + '</label>' +
@@ -18,14 +18,14 @@ function binerFrage(question_number) {
 
 function datumfrage(question_number) {
     return '<label>\n' +
-        '      Unbetitle   Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
+        '      Unbetitelte   Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
         '<div>' + '<input type="date" id="start" class="date_input" name="trip-start"' + '</div>';
 
 }
 function kurzantwort(question_number) {
     return '<label>\n' +
-        '      Unbetitle   Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
+        '      Unbetitelte   Frage' + question_number + ': <input type="text" class="bigger_width_question" name="question' + question_number + '">\n' +
         '            </label>' +
         '  <textarea rows="2" rows="25" class="antwort" placeholder="Schreiben Sie eine Antwort"></textarea>';
 }
