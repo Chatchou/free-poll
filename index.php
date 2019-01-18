@@ -26,10 +26,9 @@
         </div>
      </nav>
 
-     <div class="container " style="margin-top:100px; ">
+     <div class="container " style="margin-top:100px; background-color:#fff; border-radius:5px; margin-bottom:20px;  ">
 
-     <div class="myGrid">
-        <form action="">
+         <form action="">
        <div class="center">
         <h1>
                  <input type="text" name="title" class="bigger_width" placeholder="Unbetitelte Form">
@@ -45,7 +44,7 @@
            </span>
         </div>
 
-        
+                
         
         <div id="addQuestionPopup" class="question_button">
             <div>
@@ -56,7 +55,7 @@
             </div>
         </div>
 
-        <div id="insert_questions_before_me"></div>
+    <div id="insert_questions_before_me"></div>
 
     </div>
 </form>
@@ -70,6 +69,8 @@
 
 
     <?php 
+
+   
         
           
 
